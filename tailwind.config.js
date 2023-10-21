@@ -2,6 +2,10 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
+    fontFamily: {
+      sans: ["Estedad"],
+      serif: ["Estedad"],
+    },
     extend: {
       colors: {
         gray: {
@@ -13,7 +17,7 @@ export default {
         },
         purple: {
           200: "#F5EFFE",
-          300: '#ECE0FD',
+          300: "#ECE0FD",
           500: "#9E5CF2",
         },
       },
