@@ -16,6 +16,10 @@ const routes = [
     path: "/profile",
     element: <ProfilePage />,
   },
+  {
+    path: "/test",
+    element: <div>test</div>,
+  },
 ];
 
 const router = createBrowserRouter(routes);
