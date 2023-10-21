@@ -2,6 +2,7 @@ import HomePage from "../pages/index";
 import AuthPage from "../pages/Auth";
 import ProfilePage from "../pages/Profile";
 import { createBrowserRouter } from "react-router-dom";
+import Ui from "../pages/Ui";
 
 const routes = [
   {
@@ -19,6 +20,10 @@ const routes = [
   {
     path: "/test",
     element: <div>test</div>,
+  },
+  {
+    path: "/ui",
+    element: <Ui />,
   },
 ];
 

@@ -2,6 +2,32 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Estedad";
+  font-weight: 100;
+  src: url('./assets/fonts/Estedad-Thin.woff2');
+}
+
+@font-face {
+  font-family: "Estedad";
+  font-weight: 300;
+  src: url('./assets/fonts/Estedad-Regular.woff2');
+}
+
+@font-face {
+  font-family: "Estedad";
+  font-weight: 500;
+  src: url('./assets/fonts/Estedad-SemiBold.woff2');
+}
+
+@font-face {
+  font-family: "Estedad";
+  font-weight: 700;
+  src: url('./assets/fonts/Estedad-Bold.woff2');
+}
+
+
+
 a {
   color: blue;
   cursor: pointer;
