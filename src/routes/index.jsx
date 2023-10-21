@@ -18,6 +18,10 @@ const routes = [
     element: <ProfilePage />,
   },
   {
+    path: "/test",
+    element: <div>test</div>,
+  },
+  {
     path: "/ui",
     element: <Ui />,
   },
